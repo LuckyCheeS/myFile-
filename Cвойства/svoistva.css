@@ -1,0 +1,17 @@
+h1 {color: #19e768;}
+h1 {text-align: center;}
+h1 {font-weight: 1000;}
+h2 {padding: 30px;}
+h3 {width: 500px;
+height: 500px;
+overflow: auto;}
+p {font-size: medium;}
+p {margin: 70px;}
+div {background-color: blueviolet;
+    width: 500px;
+    height: 700px;
+    border: 30px solid black;
+    }
+body {background-image: url("img.jfif");
+    width: 500px;
+    height: 700px;}
