@@ -11,6 +11,8 @@ div {background-color: blueviolet;
     width: 500px;
     height: 700px;
     border: 30px solid black;
+    margin: 70px;
+    padding: 30px;
     }
 body {background-image: url("img.jfif");
     width: 500px;
