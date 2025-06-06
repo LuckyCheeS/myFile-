@@ -1,0 +1,14 @@
+.block_to_inline{display: inline;
+background-color: rgb(85, 185, 177);
+width: 200px;
+height: 200px;
+}
+.inline_to_block{display: block;
+width: 300px;
+height: 300px;
+background-color: aqua;}
+.conteiner{display: block;
+padding: 20px;
+border:2px ;
+width: 100%;
+align-items: center;}
