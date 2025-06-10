@@ -1,0 +1,7 @@
+.buton:hover{background-color: blue;}
+.input:focus{border-color: brown;}
+.list-item:first-child{font-weight: bold;
+}
+.list-item:last-child{color: blueviolet;}
+.end:nth-child(odd){color: aquamarine;}
+.f:first-child:hover{background-color: rgb(36, 182, 60);}
