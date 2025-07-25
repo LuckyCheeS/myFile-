@@ -1,0 +1,55 @@
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rotate{
+    transform: rotate(180deg); 
+    /* вращается хы хы хы */
+}
+.scale{
+    transform: scale(1.5);
+}
+/* вроде увеличивается */
+.translate{
+    transform: translate(100px , 100px);
+    /* меняет ось */
+}
+.skew{
+    transform: skew(20deg, 20deg);
+    /* наклоняется   */
+}
+.skew-anim{
+    padding-right: 25px;
+    transition:padding-right 3s ,color 1s;
+    
+    transform: skew(30deg, 20deg);
+}
+.skew-anim:hover{
+    padding-right: 30px;
+    color: blueviolet;
+}
+
+.pulse {
+   width: 100px;
+   height: 100px;
+   background-color: blue;
+   border-radius: 50%;
+   animation: pulse 2s infinite;
+}
+@keyframes pulse {
+   0% {
+       transform: scale(1);
+       opacity: 1;
+   }
+   50% {
+       transform: scale(1.5);
+       opacity: 0.5;
+   }
+   100% {
+       transform: scale(1);
+       opacity: 1;
+   }
+}

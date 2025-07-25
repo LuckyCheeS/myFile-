@@ -1,0 +1,35 @@
+.element{
+height: 300px;
+width: 300px;
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.element1{
+width: 300px;
+height: 300px;
+box-shadow: 13px 15px 10px 3px rgba(0,0,0,0.75);
+}
+.element2{
+width: 300px;
+height: 300px;
+box-shadow: 15px 20px 5px 5px rgba(0,0,0,0.75);
+}
+.element3{
+text-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+}
+.element4{
+text-shadow: 5px 5px 10px  rgba(0,0,0,0.75);
+}
+.element5{
+text-shadow: 10px 10px 15px  rgba(0,0,0,0.75);
+}
+.element6 {
+background: linear-gradient(to right, rgb(40, 201, 223), rgb(199, 15, 255));
+width: 300px;
+height: 300px;
+}
+.element7 {
+background: radial-gradient(circle, rgb(255, 1, 221), rgb(153, 4, 252), rgb(8, 250, 250));
+width: 300px;
+height: 300px;
+left: 300px;
+} 
