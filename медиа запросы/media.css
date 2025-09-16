@@ -1,45 +1,351 @@
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
+}
+.list ,
+hr{
+    display: none;
 }
 .logo{
     width: 143px;
     height: 35px;
+    padding: 33px 497px 32px 165px;
 }
 body {
     color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    
+  background-color: #F4F6F5;
+  width: 1440px;
+  
 }
+
 .conteiner{
     width: 1440px;
-    margin: auto;
+    height: 100px;
+    
 }
 .menu{
-    display: flex;
-    gap: 40px;
+    display: flex;  
+    gap: 60px;
     list-style-type:none ;
-    
+    height: 24px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 165px;
+    box-sizing: border-box;
+    width: 470px;
 }
 .menu a{
     color: rgb(87, 35, 35);
     text-decoration: none;
-    font-weight: 400;
-    font-size: 17;
+    font-weight: 500;
+    font-size: 20px;
     font-family: sans-serif;
-    
-    }
+    line-height: 100%;
+    height: 21px;
+    color: #2C2D35;
+ }
 
-header {
-    padding: 40px 50px 10px 50px;
+.bg-c{
+    height: 100px;
     background-color: #e1ede6;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
 }
 .menu a:hover{
-    color: #681499;
+    color: #598D66;
+}
+.box{
+margin-top: 145px;
+margin-right: 165px;
+
+
+width: 540px;
+height: 331px;
+gap: 20px;
+}
+.title{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 110.00000000000001%;
+    margin-bottom: 20px;
+}
+.subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #86928B;
+    
+}
+.btn{
+    width: 225px;
+    height: 65px;
+    border-radius: 1px;
+    color: #598D66;
+    border-color: #598D66;
+    margin-top: 65px;
+}
+.burd{
+    margin-left: 165px;
+    width:540px;
+    height:621px;
+}
+.info-box{
+    display: flex;
+}
+
+.conteiner2{
+    height: 44px;
+    width: 1110px;
+    justify-content: space-between;
+    display: flex;
+    list-style-type:none ;
+    margin-left: 165px;
+    margin-top: 70px;
+}
+h1{
+    font-size: 40px;
+    line-height: 110.00000000000001%;
+    font-weight: 500;
+    margin-right: 427px;
+}
+.lng{
+    height: 43px;
+    width: 428px;
+    text-decoration: none;
+    align-items: center;
+    list-style-type:none ;
+    display: flex;
+    gap: 32px;
+
+}
+.lng a{
+    text-decoration: none;
+    list-style-type:none ;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 100%;
+    color: #2C2D35;
+    width: fit-content;
+    margin: 10px 20px;
+    display: block;
+}
+.lng li{
+width: 126px;
+height: 43px;
+    background-color: #D4E8D9;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+@media (max-width:690px){
+    .conteiner{
+        width: 768px;
+    }
+    body{
+        width: 768px;
+    }
+    .menu{
+        margin-top: 38px;
+        margin-bottom: 38px;
+        margin-right: 39px;
+        margin-left: 102px;
+        gap: 60px;
+        width: 445px;
+    }
+    .logo{
+        padding: 33px 0px 32px 39px;
+    }
+    .menu a{
+        font-size: 18px;
+    }
+
+    .burd{
+        width: 330px;
+        height: 380px;
+        margin-left: 39px;
+    }
+    .box{
+        width: 330px;
+        height: 308px;
+        margin-top: 35px;
+        margin-right: 0;
+        margin-bottom: 37px;
+        
+    }
+    .title{
+        font-size: 40px;
+        line-height: 100%;
+    }
+    .btn{
+        width: 210px;
+        height: 60px;
+    }
+    .conteiner2{
+        width: 690px;
+        height: 43px;
+        margin-left: 39px;
+
+    }
+    .lng{
+        width: 433px;
+        height: 43px;
+
+    }
+    h1{
+        font-size: 30px;
+        margin-right: 63px;
+    }
+
+
+}
+@media (max-width:576px){
+    .conteiner{
+        width: 576px;
+    }
+    body{
+        width: 576px;
+    }
+    .menu{
+        gap: 60px;
+        padding: 0px;
+        margin-bottom: 0;
+        margin-top: 17.5px;
+        margin-right: 0;
+        margin-left: 0;
+        width: 510px;
+    }
+    .menu img {
+        margin-left: 64px;
+    }
+    .menu a{
+        font-size: 18px;
+    }
+    .logo{
+        padding: 16px 217px;
+    }
+    .bg-c {
+        height: 123px;
+    }
+    nav{
+        flex-direction: column;
+        height: 67px;
+    }
+    hr{
+        display: block;
+        width: 510px;
+        margin: auto;
+    }
+    .burd{
+        width: 195px;
+        height: 239px;   
+        margin-top: 50px;
+        margin-left: 33px;
+        margin-right: 30px;
+    }
+    .box{
+        width: 285px;
+        height: 239px;
+        margin-top: 50px;
+    }
+    .title{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .subtitle{
+        font-size: 16px;
+        
+    }
+    .btn{
+        width: 178px;
+        height: 50px;
+        margin-top: 11px;
+    }
+    .lng{
+        width: 408px;
+        height: 41px;
+    }
+    .conteiner2{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:320px){
+    .conteiner{
+        width: 320px;
+        height: 130px;
+    }
+    hr{
+        display: none;
+        width: 0px;
+    }
+    .menu {
+        margin-top: 0px;
+    }
+    .menu li{
+        display: none;
+    }
+    .img{
+        display: block !important;
+        margin-top: px;
+        margin-bottom: 19px;
+        margin-right: 15px;
+        margin-left: 166px;
+
+    }
+    .menu-b img{
+        display: inline;
+        width: 30px;
+        height: 30px;
+
+    }
+    .menu-b{
+        padding: 16px 15px;
+        width: 290px;
+        height: 30px;
+        display: flex;
+        background-color: #E1EDE6;
+
+    }
+    nav{
+        background-color: white;
+    }
+    .burd{
+        display: none;
+    }
+    .box{
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    .title{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 14px;
+    }
+    .btn{
+        width: 154px;
+        height: 50px;
+        margin-top: 40px;
+    }
+    .conteiner2 {
+        margin-left: 15px;
+    }
+    body{
+        width: 320px;
+    }
 }

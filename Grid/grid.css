@@ -1,76 +1,89 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.rage{
-    width: 1440px;
+
+ body{
+    font-family: sans-serif;
+    background-color: #fdfdf9;
+    padding: 20px;
+    width: 1180px;
+    height: 1786px;
     margin: auto;;
-}
-.conteiner{
+ }
+ .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px ;
-    gap: 30px;
-    border: 1px solid black;
-}
-.item{
-    text-align: center;
-    padding: 20px;
-    width: 380px;
-    height: 582px;
-}
-.logo{
-    width: 1180px;
-    height: 60px;
-    left:500px;
-}
-.body{
-    background-color: fuchsia;
-}
-.img{
-    text-align: center;
-    
-    width: 100%;
-    height: 245px;
-}
-.buy{
-    background-color: #FED84C;
-    height: 68px;
-    width: 163px;
-    top: 20px;
-    left: 40px;
-    bottom: 20px;
-    left: 40px;
-    gap: 10px;
-    
+    grid-template-rows: 582px 582px ;
+    gap: 20px;
 }
 .card{
-    width: 380px;
-    height: 582px;
-    border: 1 px solid #e0e0e0;
-    border-radius: 8px ;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-.card-body{
-    padding: 20px ;
-    flex-grow: 1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
-
+    width: 380px;
+    height: 582px;
+    display: flex;
+    
 }
-.title{
-    width: 247px;
-    height: 45px;
+.card img{
+    width: 380px;
+    height: 245px;
+    border: none;
+   
+}
+.card h1{
     font-family: Montserrat;
-    font-weight: 700;
+    width: 247px;
+    height: 35px;
+    margin: 0;
     font-size: 24px;
     line-height: 143%;
-    letter-spacing: 0%;
-
+    font-weight: 700;
+    margin-left: 44px;
+    margin-top: 50px;
+}
+.card p{
+    font-size: 16px;
+    color: #666;
+    line-height: 150%;
+    margin-left: 44px;
+    width: 240px ;
+    height: 48px;
+    display: block;
+    
 }
 .price{
-  width: 108px;
-  height: 36px;
-  font-size: 24px ;
+    font-weight: bold; 
+    font-size: 24px;
+    margin-left: 44px;
+}
+button{
+    padding: 10px;
+    background-color: #FED84C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 163px;
+    height: 68px;
+    margin-left: 44px;
+    margin-bottom: 50px;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 152%;
+    font-weight: 500;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #fdfdf9;
+    padding: 20px;
+    width: 1110px;
+    height: 1448.16748046875px;
+    margin: auto;;
+ }
+ .gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 582px 582px ;
+    gap: 20px;
 }

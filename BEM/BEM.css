@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    background-color: #fdfdf9;
+    padding: 20px;
+    width: 1110px;
+    height: 2896.34px;
+    margin: auto;;
+ }
+ .gallery{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 730px 730px ;
+    gap: 20px;
+}
+.gallery-card {
+    padding: 20px 20px 0px 20px;
+    background-color: #E1EDE6;
+    width: fit-content;
+    height: 710px;
+}
+.gallery-card__author{
+    color: #86928B;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.gallery-card__name{
+    color: #2c2d35;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+.gallery-card__materials{
+    color: #2c2d35;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+.gallery-card__price{
+    color: #598D66;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+.gallery-card__btn2{
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    padding: 21px 106px;
+}
+ .gallery2{
+ 
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 350px 350px ;
+    grid-template-rows: 730px 730px 730px;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,268 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    width: 1440px;
+}
+
+header {
+    background-color: #fff;
+    margin-bottom: 22px;
+    padding: 20px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #EFF0F3;
+}
+
+.header-block {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #242424;
+}
+
+nav a.active {
+    color: #5856D6;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.btn-secondary {
+    background-color: #F0F0F0;
+    color: #242424;
+}
+
+.btn-primary {
+    background-color: #5856D6;
+    color: #FFFFFF;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EEF0F3;
+    padding: 10px 14px;
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.header2 {
+    background-color: #fff;
+    margin-bottom: 22px;
+    padding: 32px 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #EFF0F3;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav2 a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #170F49;
+}
+
+.button-rounded {
+    background-color: #4A3AFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 18px 24px;
+    color: #FFF;
+    border: none;
+    border-radius: 76px;
+}
+
+
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    width: 177px;
+    height: 41px;
+}
+
+.search-box1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #EEF0F3;
+    padding: 10px 14px;
+    border-radius: 10px;
+    gap: 8px;
+    width: 352px;
+    height: 41px;
+}
+
+.search-box1 input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.buttons1 {
+    display: flex;
+
+}
+
+.btn-primary2 {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.gap {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav1 {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #242424;
+}
+.logo3{
+    margin-right: 368.15px;
+}
+.nav3{
+    margin-right: 368.15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav3 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #170F49;
+}
+.hd{
+    background-color: #111928;
+    border-radius: 10px;
+}
+.logo4{
+    margin-right: 849.3px;
+}
+.nav4{
+   
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav4 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.header-block4 {
+    display: flex;
+    align-items: center;
+    gap: 36px 24px;
+}
+.br-r{
+    border-radius: 10px;
+}
+.logo5{
+    margin-right: 50px;
+}
+.search-box4 input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    background:transparent ;
+    background-color:  transparent;
+    color: #111928;
+    
+    
+}
+.search-box4{
+    border-radius: 10px;
+    border-color: #D6D8DE;
+    border: 1px solid #D6D8DE;
+    gap: 18px 50px;
+    display: flex;
+    width: 500px;
+    height: 44px;
+    justify-content: space-between;
+}
+.search-box4 img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.nav5{
+    margin-left: 276px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 654.2999877929688px;
+    height: 19px;
+}
+
+.nav5 a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
