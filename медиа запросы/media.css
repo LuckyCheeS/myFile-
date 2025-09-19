@@ -16,7 +16,7 @@ hr{
 body {
     color: rgb(0, 0, 0);
   background-color: #F4F6F5;
-  width: 1440px;
+ 
   
 }
 
@@ -150,7 +150,7 @@ height: 43px;
         width: 768px;
     }
     body{
-        width: 768px;
+        
     }
     .menu{
         margin-top: 38px;
@@ -211,7 +211,7 @@ height: 43px;
         width: 576px;
     }
     body{
-        width: 576px;
+        
     }
     .menu{
         gap: 60px;
@@ -346,6 +346,6 @@ height: 43px;
         margin-left: 15px;
     }
     body{
-        width: 320px;
+        
     }
 }

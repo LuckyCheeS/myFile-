@@ -259,20 +259,23 @@ font-family: sans-serif;
 }
 
 .avatar1{
-    padding: 21.7px 27.21px;
+    margin-top: 27.21px;
+    margin-left: 21.7px;
+    margin-bottom: 18.3px;
 }
 .icon{
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-right: 23px;
+    margin-top: 23px;
 }
 
-.title1{
+.title3{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    padding: 18.3px 207.5px 24.37px 26.5px;
-}
+    margin-left: 26.5px;
+   
+}   
 
 .resume{
     font-weight: 600;
@@ -280,6 +283,8 @@ font-family: sans-serif;
     line-height: 22px;
     color: #809FB8;
     padding: 5px 6px;
+    margin-top: 24.37px;
+    margin-left: 26.5px;
 }
 .text{
     font-weight: 600;
@@ -287,6 +292,7 @@ font-family: sans-serif;
     line-height: 21px;
     color: #809FB8;
     padding: 6px;
+    margin-left: 27.72px;
 }
 .block3{
     display: flex;

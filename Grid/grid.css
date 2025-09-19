@@ -73,17 +73,3 @@ button{
     font-weight: 500;
 }
 
-body{
-    font-family: sans-serif;
-    background-color: #fdfdf9;
-    padding: 20px;
-    width: 1110px;
-    height: 1448.16748046875px;
-    margin: auto;;
- }
- .gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 582px 582px ;
-    gap: 20px;
-}
