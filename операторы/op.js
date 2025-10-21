@@ -7,10 +7,11 @@ console.log(a*b/c);
 console.log(a%b);
 
 let x = 7
-x++ + ++x
-console.log(x);
-x-- - --x
-console.log(x);
+let p = x++ + ++x
+console.log(p);
+x=7
+p = x-- - --x
+console.log(p);
 
 let text = "The result is: "
 let v=5
@@ -19,7 +20,7 @@ console.log(text + (v+z));
 
 console.log(a>b && a> 0&& b>0)
 
-console.log(c<10 && c!=2)
+console.log(c<10 || c!=2)
 console.log(a/c !==5)
 
 console.log(10== '10')

@@ -28,11 +28,8 @@ if (a){
 
 let z = parseInt(prompt("Введите число"))
 
-if (z%2==0){
-    console.log("число четное")
-}else{
-    console.log("число не четное")
-}
+let chet = (z%2==0)?'Четное':'Не четное';
+console.log(chet)
 
 //5Задание
 
