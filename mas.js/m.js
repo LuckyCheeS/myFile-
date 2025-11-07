@@ -24,7 +24,7 @@ let num = numbers.filter(i => i %2 ===0)
 console.log(num)
 
 //задание7
-let num1 = numbers.reduce((acc,num1)=> acc+num,0);
+let num1 = numbers.reduce((acc,num1)=> acc+num1,0);
 console.log(num1)
 
 //задание8

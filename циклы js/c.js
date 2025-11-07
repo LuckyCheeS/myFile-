@@ -55,3 +55,27 @@ let numbers = [1,2,3,4,5];
 for(let i =0 ;i < numbers.length; i++){
     console.log(numbers[i])
 }
+
+//8
+let input ='';
+while(input!=="stop"){
+    input=prompt("Введите слово stop для остановки")
+}
+
+//а для циклов while
+//для интераций удобнее for
+
+for (let i =1; i<=5; i++){
+    console.log(i);
+}
+
+//9
+for(let i=10; i>=1; i--){
+    console.log(i);
+}
+
+//10
+for (let i=1;i<=10;i++){
+    if(i%2!==0)continue;
+    console.log(i);
+}
