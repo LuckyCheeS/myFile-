@@ -1,0 +1,251 @@
+.body{
+    width: 1440px;
+    margin: auto;
+
+}
+.f{
+    background-color: #F5F7FA;
+}
+.b{
+    width:128px ;
+    height:52px ;
+}
+.info{
+    width:657px;
+    height:276px ;
+}
+.p{
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 24px;
+}
+.h{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+}
+.w{
+    height:599px ;
+}
+.c{
+    width:542px;
+}
+.width_card {
+    width: 65px;
+    height: 56px;
+}
+.card1-3{
+    width:299px !important; 
+    height: 260px;
+}
+.card2{
+    width:299px !important; 
+    height: 280px;
+}
+.p_text_card2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 240px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p_text_card1-3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 251px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2_text_card{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.h2_text_card3{
+    width: 231px;
+    height: 72px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.card2_0{
+    width: 661px;
+    height: 268px;
+
+}
+.h1_card2_0{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_text2_0{
+    width: 601px;
+    height: 184px;
+}
+.p_text_card2_0{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.help{
+    height: 288px;
+    background-color: #F5F7FA;
+}
+.h1_help{
+    width: 408px;
+    height: 88px;
+}
+.p1_help{
+    width: 540px;
+    height: 24px;
+}
+.card3_0{
+    width: 661px;
+    height: 308px;
+}
+.card_text3_0{
+    width:601px ;
+    height:184px ;
+}
+.p_text_card3_0{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 601px;
+    height: 120px;
+}
+.customers{
+    background-color: #F5F7FA;
+    height: 390px;
+}
+.customers_card4_0{
+    width:748px ;
+    height: 324px;
+
+}
+.customers_card_text4_0{
+    width: 748px;
+    height: 244px;
+}
+.customers_p1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.customers_p2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.customers_p3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.customers_b{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marketing_h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.marketing_p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 628px;
+    height: 72px;
+
+}
+.marketing_card_main{
+    width: 1440px;
+    height: 366px;
+}
+.marketing_card{
+    width: 368px;
+    height: 366px;
+}
+.card_text_top{
+    width: 317px;
+    height: 176px;
+    position: relative;
+    top: -88px;
+
+
+}
+.text_hard_card{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    width: 270px;
+}
+.sub_boss{
+    width: 1440px;
+    height: 300px;
+    background-color: #F5F7FA;
+}
+.h1_t{
+    width: 820px;
+    height: 152px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    margin: auto;
+}
+.sub_boss_b{
+    width: 178px;
+    height: 52px;
+    margin: auto;
+}
+.footer{
+    background-color: #263238;
+    width: 1440px;
+    height: 328px;
+}
+.poisk_end{
+    width: 255px;
+    height: 40px;
+}
+.t_p_e{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #D9DBE1;
+}
+.foot{
+    background-color: #263238;
+}
+.li_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+    
+}
+.li_text a{
+    color: #F5F7FA !important;
+    text-decoration: none;
+}
+
+.foot_text_main{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}

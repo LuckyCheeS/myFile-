@@ -33,13 +33,12 @@
 //    console.log("Переход по ссылке отменен")
 // });
 // 6------------------------------------------------------
-// const listItems = document.querySelectorAll("#list li");
-// listItems.forEach(item =>{
-//    item.addEventListener("click",()=>{
-//       console.log('Улик по :',item.textContent)
-//    })
-// })
+const listItems = document.querySelector("#list");
+   listItems.addEventListener("click",(e)=>{
+      console.log('Улик по :',e.target.textContent)
+   })
+   
 // 7------------------------------------------------------
-document.addEventListener('keydown', (event) => {
-   console.log('Клавиша нажата:', event.key);
-});
+// document.addEventListener('keydown', (event) => {
+//    console.log('Клавиша нажата:', event.key);
+// });
