@@ -96,8 +96,11 @@
     background-color: #F5F7FA;
 }
 .h1_help{
-    width: 408px;
+    width: 378px;
     height: 88px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
 }
 .p1_help{
     width: 540px;
